@@ -2,14 +2,21 @@
   font: 16px / 1 sans-serif;
 }
 
-head {
-  background-image: url('http://clipart-library.com/clipart/rinG8dG7T.htm');
-}
 body {
   margin: 0;
   background-color: blueviolet;
   padding: 5rem;
   text-decoration: underline;
+}
+
+.header {
+  height: 150px;
+  background-image: url('rinG8dG7T.png');
+}
+
+.puppies {
+  height: 150px;
+  background-image: url('Cartoon Puppy.jpg');
 }
 
 .hello-world {
@@ -75,4 +82,16 @@ li:hover {
 #third-column {
   grid-column: 3;
   background-color: peachpuff;
+}
+
+.dog-rant {
+  text-align: center;
+  color: #d6f7a3;
+}
+
+.dog-rant-bold {
+  font-size: 4.25rem;
+  font-weight: bolder;
+  color: #d6f7a3;
+  text-align: center;
 }
