@@ -1,6 +1,17 @@
 :root {
   font: 16px / 1 sans-serif;
 }
+body {
+  margin: 0;
+  background-color: blueviolet;
+  padding: 5rem;
+}
+
+.hello-world {
+  text-align: center;
+  font-size: 6rem;
+  padding: 10rem;
+}
 
 html {
   height: 100%;
@@ -13,4 +24,23 @@ body {
 
 h2 {
   font-family: 'ZCOOL KuaiLe', cursive;
+  color: magenta;
+}
+
+li:hover {
+  font-size: 2rem;
+  padding-left: 5rem;
+  transition: 1s;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+}
+
+.first-ramble {
+  position: left;
+  padding: 2rem;
+}
+
+.second-ramble {
+  position: right;
+  padding: 2rem;
 }
