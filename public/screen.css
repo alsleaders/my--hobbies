@@ -1,6 +1,10 @@
 :root {
   font: 16px / 1 sans-serif;
 }
+
+head {
+  background-image: url('http://clipart-library.com/clipart/rinG8dG7T.htm');
+}
 body {
   margin: 0;
   background-color: blueviolet;
@@ -41,10 +45,16 @@ li:hover {
 
 .first-ramble {
   font-family: 'Courier New', Courier, monospace;
+  grid-column: auto;
+  padding: 1rem;
+  text-align: left;
 }
 
 .second-ramble {
   font-family: 'Times New Roman', Times, serif;
+  grid-column: auto;
+  padding: 1rem;
+  text-align: right;
 }
 
 #grid {
