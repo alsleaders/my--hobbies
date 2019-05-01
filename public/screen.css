@@ -103,3 +103,36 @@ li:hover {
 #Rambo {
   margin: 4rem;
 }
+
+#disclaimer {
+  text-align: center;
+  font-size: 0.5rem;
+  color: red;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#knitfast {
+  max-width: 15%;
+}
+#knitfast:hover {
+  opacity: 0.5;
+}
+
+#knitwrist {
+  max-width: 15%;
+}
+#knitwristhover {
+  opacity: 0.5;
+}
+
+#whywould {
+  max-width: 15%;
+}
+#whywouldhover {
+  opacity: 0.5;
+}
