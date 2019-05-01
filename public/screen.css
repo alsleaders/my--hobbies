@@ -110,6 +110,13 @@ li:hover {
   color: red;
 }
 
+#story {
+  font-size: 400%;
+  text-align: center;
+  color: orange;
+  text-transform: uppercase;
+}
+
 img {
   display: block;
   margin-left: auto;
