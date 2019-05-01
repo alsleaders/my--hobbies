@@ -114,25 +114,32 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 5rem solid turquoise;
+  border-radius: 5px;
 }
 
 #knitfast {
-  max-width: 15%;
+  max-width: 35%;
 }
 #knitfast:hover {
   opacity: 0.5;
 }
 
 #knitwrist {
-  max-width: 15%;
+  max-width: 55%;
 }
-#knitwristhover {
+#knitwrist:hover {
   opacity: 0.5;
 }
 
 #whywould {
-  max-width: 15%;
+  max-width: 55%;
 }
-#whywouldhover {
+#whywould:hover {
   opacity: 0.5;
+}
+
+figcaption {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
 }
